@@ -15,7 +15,7 @@ from mrcnn.model import log
 
 
 if __name__ == "__main__":
-    file_dict, mask_dict = DS.get_mask_and_data_dicts(".julie_lab_images_0/Full Dataset Processed/")
+    file_dict, mask_dict = DS.get_mask_and_data_dicts("./julie_lab_images_0/Full Dataset Processed/")
     train_dict = {}
     val_dict = {}
     for i in range(0, 600):
