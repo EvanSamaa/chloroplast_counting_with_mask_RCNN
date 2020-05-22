@@ -35,7 +35,7 @@ if __name__ == "__main__":
     MODEL_DIR = "./trained_model/"
     model = modellib.MaskRCNN(mode="training", config=config,
                               model_dir=MODEL_DIR)
-    model.load_weights(".julie_lab_images_0/mask_rcnn_coco.h5", by_name=True,
+    model.load_weights("./julie_lab_images_0/mask_rcnn_coco.h5", by_name=True,
                        exclude=["mrcnn_class_logits", "mrcnn_bbox_fc",
                                 "mrcnn_bbox", "mrcnn_mask"])
     model.train(training_dataset, valid_dataset,
