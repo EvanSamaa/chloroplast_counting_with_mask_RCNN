@@ -38,11 +38,11 @@ if __name__ == "__main__":
     model.load_weights("./julie_lab_images_0/mask_rcnn_coco.h5", by_name=True,
                        exclude=["mrcnn_class_logits", "mrcnn_bbox_fc",
                                 "mrcnn_bbox", "mrcnn_mask"])
-    model.train(training_dataset, valid_dataset,
-                learning_rate=config.LEARNING_RATE,
-                epochs=2,
-                layers='heads')
-    print("head done")
+    # model.train(training_dataset, valid_dataset,
+    #             learning_rate=config.LEARNING_RATE,
+    #             epochs=2,
+    #             layers='heads')
+    # print("head done")
     model.train(training_dataset, valid_dataset,
                 learning_rate=config.LEARNING_RATE / 10,
                 epochs=10,
