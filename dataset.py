@@ -2,7 +2,7 @@ from mrcnn import utils
 import numpy as np
 from PIL import Image
 from os import listdir
-
+from mrcnn.config import Config
 class Image_Dataset(utils.Dataset):
     def __init__(self, class_map=None, file_dict=None, mask_dict=None):
         super().__init__(class_map)
