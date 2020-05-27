@@ -26,20 +26,14 @@ class Inference():
                           model_dir=MODEL_DIR)
         self.model.load_weights(MODEL_DIR, by_name=True)
         self.dataset_val = dataset
-    def eval(self):
+    def eval(self, img=None):
         image_id = random.choice(self.dataset_val.image_ids)
-        original_image, image_meta, gt_class_id, gt_bbox, gt_mask = \
-            modellib.load_image_gt(self.dataset_val, self.inference_config,
-                                   image_id, use_mini_mask=False)
+        img = self.dataset_val.load_image(image_id)
+        results = self.model.detect([img], verbose=1)
 
-        log("original_image", original_image)
-        log("image_meta", image_meta)
-        log("gt_class_id", gt_class_id)
-        log("gt_bbox", gt_bbox)
-        log("gt_mask", gt_mask)
-
-        visualize.display_instances(original_image, gt_bbox, gt_mask, gt_class_id,
-                                    self.dataset_val.class_names, figsize=(8, 8))
+        r = results[0]
+        visualize.display_instances(img, r['rois'], r['masks'], r['class_ids'],
+                                    ['BG', 'chloroplast'], r['scores'], figsize=(8, 8))
 
 if __name__ == "__main__":
     mode = "valid"
