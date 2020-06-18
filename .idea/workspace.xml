@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbede6f0-190d-4380-a250-b8cfcba4cc78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Julie_lab_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Julie_lab_demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="chloroplast_counting_with_mask_RCNN" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,25 +26,27 @@
   </component>
   <component name="ProjectId" id="1bSOstFBQRdcUNuTHM6aeVdrdTl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.gui">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python" singleton="false">
@@ -59,6 +61,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -80,6 +83,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -101,6 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -122,6 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -143,6 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -153,10 +160,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.helper" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.dataset" />
       <item itemvalue="Python.gui" />
+      <item itemvalue="Python.helper" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
@@ -166,6 +173,18 @@
         <item itemvalue="Python.helper" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -177,8 +196,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588622237710</updated>
+      <workItem from="1590599541300" duration="671000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="671000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -192,5 +218,45 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="402" y="0" key="#gui" timestamp="1590632816578">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="0" key="#gui/0.0.1366.728@0.0.1366.728" timestamp="1590632816578" />
+    <state width="1345" height="218" key="GridCell.Tab.0.bottom" timestamp="1590957413712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="218" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590957413712" />
+    <state width="1345" height="218" key="GridCell.Tab.0.center" timestamp="1590957413712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="218" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590957413712" />
+    <state width="1345" height="218" key="GridCell.Tab.0.left" timestamp="1590957413712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="218" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590957413712" />
+    <state width="1345" height="218" key="GridCell.Tab.0.right" timestamp="1590957413712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="218" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590957413712" />
+    <state x="386" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1590941129091">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="386" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590941129091" />
   </component>
 </project>
